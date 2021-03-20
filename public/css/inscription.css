@@ -1,0 +1,85 @@
+.container_page {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.bloc_presentation {
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(30deg, #bd1c1c, #e25a5a);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bloc_presentation h1 {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  width: 85%;
+  line-height: 70px;
+}
+
+.form_inscription {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.form_inscription form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form_label {
+  margin-bottom: 20px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.form_label input {
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  font-size: 15px;
+  padding: 10px;
+  color: #212529;
+  width: 60%;
+  outline-color: #e25a5a;
+}
+
+.form_label input[type="submit"] {
+    background-color: #e25a5a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.form_label input[type="submit"]:hover {
+    transform: scale(1.05);
+}
+
+.form_label:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_label:last-child p {
+    font-size: 13px;
+    color: grey;
+}
+
+.form_label:last-child a {
+    color: #e25a5a;
+    text-decoration: none;
+}
+
+.form_label:last-child a:hover {
+    text-decoration: underline;
+}
